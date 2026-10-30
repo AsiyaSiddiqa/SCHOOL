@@ -1,0 +1,28 @@
+.mainrzlt{
+  width: 100%;
+  min-height: 400vh;
+  background: linear-gradient(rgba(152, 241, 162, 0.45), rgba(12, 190, 92, 0.75));
+}
+#inner{
+    width:80%;
+    height: auto;
+    border: 2px solid white;
+    transform: translate(160px , 130px);
+}
+.first{
+    width:1300px;
+    height:700px;
+    border: 2px solid white;
+}
+.first-inner{
+    height:700px;
+    width:595px;
+    border:2px solid red;
+    float:left;
+}
+.second-inner{
+    height:700px;
+    width:595px;
+    border:2px solid blue;
+    float:left;
+}

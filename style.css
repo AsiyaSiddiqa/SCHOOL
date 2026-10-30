@@ -1,0 +1,104 @@
+.footmaindiv{
+    height: 450px;
+     width: auto;
+      background:linear-gradient(to right,rgba(179, 3, 3, 0.95), rgba(163, 3, 3, 0.95) );
+      overflow : hidden;
+}
+#foot{
+    font-size: 15px;
+    color:#ffffff;
+    clear:both;
+   /* padding: 15px 10px;*/
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+#foot span{
+    font-size: 17px;
+    font-weight: bold;
+}
+.im{
+    background: linear-gradient(rgba(118, 59, 59, 0.45), rgba(15, 15, 25, 0.75)), url('Asia/Asiyaa.png') no-repeat;
+  
+background-attachment: fixed;
+   background-size: cover;   
+}
+.nav-box{
+    text-shadow: 3px 3px 8px #bfb6b6 ;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #dcd6d6;
+    margin:2px 5px; 
+    border-radius: 4px;
+    background-color: #7a0303;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 500;
+    letter-spacing: 0.5;
+    
+    
+}
+.nav-box:hover {
+    background-color: #650202;
+    color: #ffffff;
+    
+}
+.imgt{
+   transform: translate(10px,0px);
+}
+.message{
+    height: 500px;
+    width: 90%;
+    background: linear-gradient(rgba(188, 33, 33, 0.45), rgba(200, 28, 28, 0.75));
+    border:2px solid rgb(119, 109, 109);
+    margin-top: 120px;
+    margin-left: 70px;
+    border-radius: 20px;
+    
+}
+#pic{
+   
+}
+#pic-child{
+    border: 2px solid rgb(113, 102, 214);
+    transform: translate(70px , 70px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(237, 237, 243);
+   background: url('Asia/Msfarwa.png');
+   background-size: 300px 350px;
+   background-repeat:no-repeat ;
+    
+
+}
+#thanks{
+    Height:200px;
+    width:1000px;
+    border:2px solid white;
+    transform: translate(250px , 65px);
+    border-radius: 30px;
+    background: linear-gradient(rgba(232, 229, 229, 0.75), rgba(232, 228, 228, 0.75));;
+   box-shadow: 0px 0px 10px 10px white;
+   padding:10px;
+}
+#vdo{
+    max-width: 1200px; 
+    object-fit: cover;
+     width: 100%;
+      height: 600px; 
+      border: 3px solid rgba(255, 255, 255, 0.2); ;
+      
+      border-radius: 15px;
+       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); 
+       display: block; 
+       margin: 0 auto;
+}
+img { 
+  max-width: 100% !important; 
+  height: auto !important; 
+}
+
+
+* { 
+  max-width: 100% !important; 
+  box-sizing: border-box !important; 
+}

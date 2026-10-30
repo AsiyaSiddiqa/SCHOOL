@@ -1,0 +1,471 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Results - GGHSS Mianwal Ranjha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body >
+  <!--Header Start..-->
+  <header class="bg-slate-900 text-white flex justify-between items-center w-full min-h-[80px] shadow-md relative z-10">
+    <!--1st Div-->
+    <div class="flex items-center space-x-4 px-6 py-2">
+      <!--School logo..-->
+      <img src="clrbg.png" alt="GGHSS Logo" class="sm:w-[85px] w-[55px] sm:h-[85px] h-[55px] object-contain rounded-full bg-white/1 p- ring-4 ring-amber-500/90" />
+     <!--2nd div..-->
+      <div>
+        <!--School Name-->
+        <h1 class="sm:text-2xl text-base font-extrabold tracking-tight leading-tight text-white">
+          GOVT. GIRLS HIGHER SECONDARY SCHOOL
+        </h1>
+        <p class="sm:text-sm text-xs text-amber-400 font-semibold tracking-wide uppercase">
+          Mianwal Ranjha
+        </p>
+      <!--2nd div close-->
+      </div>
+    <!--1st div closee-->
+    </div>
+
+   <!--Principal Wala section Polygon ka use kia image ko cut krny k liay..-->
+    <div class="hidden lg:flex items-center justify-end pr-10 pl-20 h-full py-6 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold  text-base shadow-inner [clip-path:polygon(12%_0,_100%_0,_100%_100%,_0%_100%)]">
+      <span class="flex items-center gap-2 font-bold tracking-tight text-lg">
+        <i class="fas fa-graduation-cap text-slate-900 text-xl"></i>
+        Principal Ms Farwa Nawaz <span class="text-xs bg-slate-900/10 px-2 py-0.5 rounded font-semibold text-black">(SST IT)</span>
+      </span>
+    </div>
+
+    <div class="flex md:hidden items-center pr-4">
+      <button id="menu-btn" class="text-white focus:outline-none p-2 rounded hover:bg-slate-800 transition-colors">
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+  </header>
+<!--Header section Close..-->
+  <!--NavBar Start..Ar isy stick kia hua h..-->
+<nav class="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
+
+  <!-- Desktop Navbar -->
+  <div class="hidden md:flex flex-row flex-nowrap divide-x divide-blue-800/60 bg-blue-900">
+    
+    <!--Home tab-->
+    <a href="index.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-home text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Home</span>
+    </a>
+
+    <!--About Us tab-->
+    <a href="aboutus.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-users text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">About Us</span>
+    </a>
+
+    <!--Admissions wla tab-->
+    <a href="admission.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-file-signature text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Admissions</span>
+    </a>
+
+    <!--Our Staff-->
+    <a href="staff.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-chalkboard-teacher text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Our Staff</span>
+    </a>
+
+    <!--Results-->
+    <a href="results.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-trophy text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Results</span>
+    </a>
+<!--Timetable-->
+    <a href="header1.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-table text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Timetable</span>
+    </a>
+    <!--Academics-->
+    <a href="academics.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-graduation-cap text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Academics</span>
+    </a>
+
+    <!--Notice Board-->
+    <a href="notice.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-bullhorn text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Notice Board</span>
+    </a>
+
+    <!--Contact Us-->
+    <a href="contact.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-envelope text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Contact Us</span>
+    </a>
+
+  </div>
+
+  <div id="mobile-backdrop" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
+
+  <div id="mobile-sidebar" class="fixed inset-y-0 left-0 z-50 w-72 bg-blue-950 text-white transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden flex flex-col shadow-2xl overflow-y-auto">
+    <div class="flex items-center justify-between p-4 border-b border-blue-900">
+      <button id="close-btn" class="text-white hover:text-amber-400 p-2">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    
+    <div class="flex flex-col py-2 divide-y divide-blue-900/50">
+      
+      <!--Home tab-->
+      <a href="project.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-home text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Home</span>
+      </a>
+
+      <!--About Us tab-->
+      <a href="aboutus.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-users text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">About Us</span>
+      </a>
+
+      <!--Admissions wla tab-->
+      <a href="admission.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-file-signature text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Admissions</span>
+      </a>
+
+      <!--Our Staff-->
+      <a href="staff.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-chalkboard-teacher text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Our Staff</span>
+      </a>
+
+      <!--Results-->
+      <a href="results.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-trophy text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Results</span>
+      </a>
+<!--Timetable-->
+    <a href="header1.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-table text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Timetable</span>
+    </a>
+      <!--Academics-->
+      <a href="academics.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-graduation-cap text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Academics</span>
+      </a>
+
+      <!--Notice Board-->
+      <a href="notice.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-bullhorn text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Notice Board</span>
+      </a>
+
+      <!--Contact Us-->
+      <a href="contact.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-envelope text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Contact Us</span>
+      </a>
+
+    </div>
+  </div>
+</nav>
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const closeBtn = document.getElementById('close-btn');
+  const sidebar = document.getElementById('mobile-sidebar');
+  const backdrop = document.getElementById('mobile-backdrop');
+
+  function toggleSidebar() {
+    sidebar.classList.toggle('-translate-x-full');
+    backdrop.classList.toggle('hidden');
+  }
+
+  menuBtn.addEventListener('click', toggleSidebar);
+  closeBtn.addEventListener('click', toggleSidebar);
+  backdrop.addEventListener('click', toggleSidebar);
+</script>
+
+<div class="bg-gradient-to-b from-slate-100 via-amber-50/20 to-slate-100 text-slate-800 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <!--Results Section-->
+    <div class="max-w-5xl mx-auto space-y-12">
+
+        <!--Heading-->
+        <div class="text-center space-y-3" data-aos="fade-down" data-aos-duration="1000">
+            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest bg-amber-500 text-slate-950 shadow-lg shadow-amber-500/20">
+                <i class="fas fa-graduation-cap"></i> Academic Achievements
+            </span>
+            <h1 class="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight">
+                Student <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-orange-600 to-amber-600">Results</span>
+            </h1>
+            <p class="text-slate-600 text-base font-bold max-w-2xl mx-auto">
+                Celebrating outstanding milestones, 100% results, and brilliant positions secured by our hardworking students.
+            </p>
+        </div>
+
+        <!--Rzlt list-->
+        <div class="space-y-8">
+            <div class="bg-white rounded-3xl border-2 border-pink-200 p-6 sm:p-8 shadow-xl hover:shadow-2xl hover:border-pink-500 hover:-translate-y-1 transition-all duration-300 grid grid-cols-1 md:grid-cols-12 gap-6 items-center group relative overflow-hidden" data-aos="fade-up">
+                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-pink-500/10 rounded-full blur-2xl group-hover:bg-pink-500/20 transition-all"></div>
+                
+                <!--Rzlt img-->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden border-4 border-pink-300 shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-slate-900 p-2 relative flex items-center justify-center">
+                        <div class="absolute top-2 right-2 bg-pink-600 text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow z-10">
+                            <i class="fas fa-image mr-1"></i> Result Banner
+                        </div>
+                        <img src="12th.jpg" alt="Matric 10th Science Result 2026" class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-700" onerror="this.onerror=null; this.src='Asia/other2.jpg';">
+                    </div>
+                </div>
+
+                <!--Content-->
+                <div class="md:col-span-7 space-y-3 text-center md:text-left relative z-10">
+                    <span class="inline-block px-3.5 py-1 rounded-md text-xs font-black bg-pink-100 text-pink-900 border border-pink-300 uppercase tracking-wider shadow-sm">
+                        ★ 61% Passing Result
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 group-hover:text-pink-600 transition-colors">
+                       12th Class Result 2026
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base font-medium leading-relaxed">
+                        Alhamdulillah..! Govt. Girls Higher Secondary School, Mianwal Ranjha achieved a historic <strong class="text-slate-900">61% Result</strong> in the 12th Class Examination. Top positions were secured brilliantly by our diligent students under the expert supervision of class in-charge <strong class="text-slate-900">Ms Nazish</strong>.
+                    </p>
+                    <div class="pt-3 border-t border-slate-100 text-xs sm:text-sm font-extrabold text-slate-700 space-y-1.5">
+                        <p><i class="fas fa-user-tie text-pink-600 mr-2"></i><strong>Class In-charge:</strong>Ms Nazish</p>
+                        <p><i class="fas fa-calendar-alt text-pink-600 mr-2"></i><strong>Session:</strong> 2026</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--2nd-->
+            <div class="bg-white rounded-3xl border-2 border-green-200 p-6 sm:p-8 shadow-xl hover:shadow-2xl hover:border-green-500 hover:-translate-y-1 transition-all duration-300 grid grid-cols-1 md:grid-cols-12 gap-6 items-center group relative overflow-hidden" data-aos="fade-up">
+                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-green-500/10 rounded-full blur-2xl group-hover:bg-green-500/20 transition-all"></div>
+                
+                <!--img-->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden border-4 border-green-300 shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-slate-900 p-2 relative flex items-center justify-center">
+                        <div class="absolute top-2 right-2 bg-green-600 text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow z-10">
+                            <i class="fas fa-image mr-1"></i> Result Banner
+                        </div>
+                        <img src="10th2026.jpg" alt="Matric 10th Science Result 2026" class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-700" onerror="this.onerror=null; this.src='Asia/other2.jpg';">
+                    </div>
+                </div>
+
+                <!--Right side content-->
+                <div class="md:col-span-7 space-y-3 text-center md:text-left relative z-10">
+                    <span class="inline-block px-3.5 py-1 rounded-md text-xs font-black bg-green-100 text-green-900 border border-green-300 uppercase tracking-wider shadow-sm">
+                        ★ 100% Passing Result
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 group-hover:text-green-600 transition-colors">
+                        Matric 10th Science Result 2026
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base font-medium leading-relaxed">
+                        Alhamdulillah..! Govt. Girls Higher Secondary School, Mianwal Ranjha achieved a historic <strong class="text-slate-900">100% Result</strong> in the Matric 10th Science Examination. Top positions were secured brilliantly by our diligent students under the expert supervision of class in-charge <strong class="text-slate-900">Ms Tanzila Nadir</strong>.
+                    </p>
+                    <div class="pt-3 border-t border-slate-100 text-xs sm:text-sm font-extrabold text-slate-700 space-y-1.5">
+                        <p><i class="fas fa-user-tie text-green-600 mr-2"></i><strong>Class In-charge:</strong>Ms Tanzila Nadir</p>
+                        <p><i class="fas fa-calendar-alt text-green-600 mr-2"></i><strong>Session:</strong> 2026</p>
+                    </div>
+                </div>
+            </div>
+<!--3rd-->
+<div class="bg-white rounded-3xl border-2 border-red-200 p-6 sm:p-8 shadow-xl hover:shadow-2xl hover:border-red-500 hover:-translate-y-1 transition-all duration-300 grid grid-cols-1 md:grid-cols-12 gap-6 items-center group relative overflow-hidden" data-aos="fade-up">
+                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-red-500/10 rounded-full blur-2xl group-hover:bg-red-500/20 transition-all"></div>
+                
+                <!--Result img-->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden border-4 border-red-300 shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-slate-900 p-2 relative flex items-center justify-center">
+                        <div class="absolute top-2 right-2 bg-red-600 text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow z-10">
+                            <i class="fas fa-image mr-1"></i> Result Banner
+                        </div>
+                        <!-- Yahan aap apni image ka path change karlein e.g. Asia/10th2026.jpg -->
+                        <img src="10th2025.jpg" alt="Matric 10th Science Result 2026" class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-700" onerror="this.onerror=null; this.src='Asia/other2.jpg';">
+                    </div>
+                </div>
+
+                <!--Content-->
+                <div class="md:col-span-7 space-y-3 text-center md:text-left relative z-10">
+                    <span class="inline-block px-3.5 py-1 rounded-md text-xs font-black bg-red-100 text-red-900 border border-red-300 uppercase tracking-wider shadow-sm">
+                        ★ 85% Passing Result
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 group-hover:text-red-600 transition-colors">
+                        Matric 10th Science Result 2025
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base font-medium leading-relaxed">
+                        Alhamdulillah..! Govt. Girls Higher Secondary School, Mianwal Ranjha achieved a historic <strong class="text-slate-900">87% Result</strong> in the Matric 10th Science Examination. Top positions were secured brilliantly by our diligent students under the expert supervision of class in-charge <strong class="text-slate-900">Ms Samina Irm</strong>.
+                    </p>
+                    <div class="pt-3 border-t border-slate-100 text-xs sm:text-sm font-extrabold text-slate-700 space-y-1.5">
+                        <p><i class="fas fa-user-tie text-red-600 mr-2"></i><strong>Class In-charge:</strong> Ms Samina Irm</p>
+                        <p><i class="fas fa-calendar-alt text-red-600 mr-2"></i><strong>Session:</strong> 2025</p>
+                    </div>
+                </div>
+            </div>
+            <!--4th-->
+            <div class="bg-white rounded-3xl border-2 border-blue-200 p-6 sm:p-8 shadow-xl hover:shadow-2xl hover:border-blue-500 hover:-translate-y-1 transition-all duration-300 grid grid-cols-1 md:grid-cols-12 gap-6 items-center group relative overflow-hidden" data-aos="fade-up">
+                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-blue-500/10 rounded-full blur-2xl group-hover:bg-blue-500/20 transition-all"></div>
+                
+                <!--img-->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden border-4 border-blue-300 shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-slate-900 p-2 relative flex items-center justify-center">
+                        <div class="absolute top-2 right-2 bg-blue-600 text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow z-10">
+                            <i class="fas fa-image mr-1"></i> Result Banner
+                        </div>
+                        <img src="10th2024.jpg" alt="Matric 10th Science Result 2026" class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-700" onerror="this.onerror=null; this.src='Asia/other2.jpg';">
+                    </div>
+                </div>
+
+                <!--Content-->
+                <div class="md:col-span-7 space-y-3 text-center md:text-left relative z-10">
+                    <span class="inline-block px-3.5 py-1 rounded-md text-xs font-black bg-blue-100 text-blue-900 border border-blue-300 uppercase tracking-wider shadow-sm">
+                        ★ 87% Passing Result
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 group-hover:text-blue-600 transition-colors">
+                        Matric 10th Science Result 2024
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base font-medium leading-relaxed">
+                        Alhamdulillah..! Govt. Girls Higher Secondary School, Mianwal Ranjha achieved a historic <strong class="text-slate-900">87% Result</strong> in the Matric 10th Science Examination. Top positions were secured brilliantly by our diligent students under the expert supervision of class in-charge <strong class="text-slate-900">Ms Asma khalid</strong>.
+                    </p>
+                    <div class="pt-3 border-t border-slate-100 text-xs sm:text-sm font-extrabold text-slate-700 space-y-1.5">
+                        <p><i class="fas fa-user-tie text-blue-600 mr-2"></i><strong>Class In-charge:</strong> Ms Asma Khalid</p>
+                        <p><i class="fas fa-calendar-alt text-blue-600 mr-2"></i><strong>Session:</strong> 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--5th-->
+            <div class="bg-white rounded-3xl border-2 border-purple-200 p-6 sm:p-8 shadow-xl hover:shadow-2xl hover:border-purple-500 hover:-translate-y-1 transition-all duration-300 grid grid-cols-1 md:grid-cols-12 gap-6 items-center group relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-purple-500/10 rounded-full blur-2xl group-hover:bg-purple-500/20 transition-all"></div>
+                
+                <!--Image Box-->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden border-4 border-purple-300 shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-slate-900 p-2 relative flex items-center justify-center">
+                        <div class="absolute top-2 right-2 bg-purple-600 text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow z-10">
+                            <i class="fas fa-image mr-1"></i> Result Banner
+                        </div>
+                        <img src="9th2024.jpg" alt="Matric Annual Result 2025" class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-700" onerror="this.onerror=null; this.src='Asia/other2.jpg';">
+                    </div>
+                </div>
+
+                <!--Content-->
+                <div class="md:col-span-7 space-y-3 text-center md:text-left relative z-10">
+                    <span class="inline-block px-3.5 py-1 rounded-md text-xs font-black bg-purple-100 text-purple-900 border border-purple-300 uppercase tracking-wider shadow-sm">
+                      ★ 89% Passing Result
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 group-hover:text-purple-600 transition-colors">
+                        9th Annual Result 2024
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base font-medium leading-relaxed">
+                        Alhamdulillah..!! Govt. Girls Higher Secondary School, Mianwal Ranjha achieved a historic <strong class="text-slate-900">89% Result</strong> in the Matric 10th Science Examination. Top positions were secured brilliantly by our diligent students under the expert supervision of class in-charge <strong class="text-slate-900">Ms Farwa(Principal)</strong>.
+                    </p>
+                    <div class="pt-3 border-t border-slate-100 text-xs sm:text-sm font-extrabold text-slate-700 space-y-1.5">
+                        <p><i class="fas fa-award text-purple-600 mr-2"></i><strong>Class In-charge:</strong> Ms Farwa Nawaz</p>
+                        <p><i class="fas fa-calendar-alt text-purple-600 mr-2"></i><strong>Session:</strong> 2024</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--6th-->
+         <div class="bg-white rounded-3xl border-2 border-amber-200 p-6 sm:p-8 shadow-xl hover:shadow-2xl hover:border-amber-500 hover:-translate-y-1 transition-all duration-300 grid grid-cols-1 md:grid-cols-12 gap-6 items-center group relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition-all"></div>
+                
+                <!--Image-->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden border-4 border-amber-300 shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-slate-900 p-2 relative flex items-center justify-center">
+                        <div class="absolute top-2 right-2 bg-amber-600 text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow z-10">
+                            <i class="fas fa-image mr-1"></i> Result Banner
+                        </div>
+                        <img src="9th2025.jpg" alt="Matric Annual Result 2025" class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-700" onerror="this.onerror=null; this.src='Asia/other2.jpg';">
+                    </div>
+                </div>
+
+                <!--Right content-->
+                <div class="md:col-span-7 space-y-3 text-center md:text-left relative z-10">
+                    <span class="inline-block px-3.5 py-1 rounded-md text-xs font-black bg-amber-100 text-amber-900 border border-amber-300 uppercase tracking-wider shadow-sm">
+ ★ 60% Passing Result                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 group-hover:text-amber-600 transition-colors">
+                        9th Annual Result 2024
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base font-medium leading-relaxed">
+                        Alhamdulillah..!! Govt. Girls Higher Secondary School, Mianwal Ranjha achieved a historic <strong class="text-slate-900">68% Result</strong> in the Matric 10th Science Examination. Top positions were secured brilliantly by our diligent students under the expert supervision of class in-charge <strong class="text-slate-900">Ms Tanzila Nadir</strong>.
+                    </p>
+                    <div class="pt-3 border-t border-slate-100 text-xs sm:text-sm font-extrabold text-slate-700 space-y-1.5">
+                        <p><i class="fas fa-award text-amber-600 mr-2"></i><strong>Class In-charge:</strong> Ms Tanzila Nadir</p>
+                        <p><i class="fas fa-calendar-alt text-amber-600 mr-2"></i><strong>Session:</strong> 2025</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+         
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+ <!--Footer-->
+ <footer id="foot" class="w-full">
+  <div class="footmaindiv">
+    
+    <div class="bg-blue-950 text-white flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 sm:py-8 py-4 gap-8 lg:gap-4">
+      
+      <!--School logo left side-->
+      <div class="w-full lg:w-[300px] flex items-center justify-center">
+        <img src="clrbg.png" class="h-[80px] sm:h-[200px] object-contain" alt="Logo" />
+      </div>
+
+      <!--School information ..Middle -->
+      <div class="w-full lg:w-[320px] flex flex-col justify-center text-center lg:text-left px-2">
+        <h1 class="text-xl sm:text-3xl font-bold text-amber-500 mb-2">School Information</h1>
+        <p class="text-[12px] sm:text-sm leading-relaxed mb-4 text-slate-200">
+          Situated in the heart of Mianwal Ranjha, Govt. Girls Higher Secondary School is dedicated to providing quality education and building a bright future for young women in a supportive and modern environment.
+        </p>
+        <div class="flex items-center justify-center lg:justify-start text-[12px] text-left sm:text-sm gap-2">
+          <img src="location.png" class="h-[25px] w-[25px] sm:h-[30px] sm:w-[30px] inline-block shrink-0" alt="Location" />
+          <span>Mianwal Ranjha, Tehsil Phalia, District Mandi Bahauddin, Punjab, Pakistan.</span>
+        </div>
+      </div>
+
+      <!--Map .. Right side-->
+      <div class="w-full lg:w-[500px] xl:w-[550px] flex justify-center">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3369.2276346762246!2d73.44013768311498!3d32.3862591532942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgovt%20girls%20higher%20secondary%20school%20mianwal%20ranjha!5e0!3m2!1sen!2s!4v1786869686311!5m2!1sen!2s" 
+          class="border-0 h-[250px] sm:h-[280px] w-full rounded-lg shadow-md" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+      </div>
+
+    </div>
+
+    <!--Footer bottom-->
+    <div class="bg-slate-900 text-white sm:py-4 py-2 px-4 text-center flex flex-col justify-center gap-1">
+      <p class="m-0 text-[10px] sm:text-sm">
+        Copyright &copy; 2026, GGHSS Mianwal Ranjha. All rights Reserved.
+      </p>
+      <p class="text-[10px] sm:text-sm text-slate-300">
+        Website designed & developed by <span class="font-bold text-amber-400 text-[12px] sm:text-[16px]">Asiya Siddiqa</span>. BSSE(3rd Semester) | Virtual University Of Pakistan
+      </p>
+    </div>
+
+  </div>
+</footer>
+<!--End footer-->
+<!--Animation-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+            offset: 100
+        });
+    </script>
+</body>
+</html>

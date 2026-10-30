@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Animation 2
+        </title>
+        <style>
+            .box-1{
+                height:150px;
+                width:800px;
+                margin:50px auto;
+                border: 2px solid black;
+                position: relative;
+            }
+            .box-2{
+                height:100px;
+                width:200px;
+                background-color: red;
+                margin-top: 20px;
+               animation: box 4s ;
+               animation-iteration-count: 2;
+               animation-timing-function: ease-in-out;
+               position: absolute;
+               animation-direction: alternate;
+
+
+            }
+            @keyframes box{
+                from{
+                    left:0px;
+                }
+                to{
+                    left:600px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box-1">
+            <div class="box-2"></div>
+        </div>
+    </body>
+</html>

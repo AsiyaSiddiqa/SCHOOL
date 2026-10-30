@@ -1,0 +1,331 @@
+.main_div{
+     background: linear-gradient(rgba(62, 96, 218, 0.45), rgba(35, 35, 180, 0.75));
+margin:0;
+padding:0;
+width:100%;
+min-height: 450vh;
+
+    }
+.principal_div{
+    height:400px;
+    width:1500px;
+    clear:both;
+
+    }
+    #prncpl_div_col1{
+        
+        
+        box-shadow: 5px 5px 10px rgb(172, 168, 168);
+        background-color: white;
+        height:400px;
+        width:300px;
+    border:2px solid rgb(131, 131, 213);
+    border-radius: 10px;
+        transform: translate(20px,20px); 
+        background-image: url(' Asia/Principal.png');  
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        float:left;
+             transition: background-image 0.5s ease-in-out 0.02s, transform 0.3s ease, box-shadow 0.3s ease;
+       
+        
+    }
+    #prncpl_div_col1:hover{
+        box-shadow: 5px 5px 20px rgb(26, 8, 114);
+        background-color: rgb(1, 1, 21);
+        background-image: url('Asia/Msfarwa.png');
+   
+    }
+    #txt{
+        text-align: center;
+         font-weight: bold;
+          font-family: 'Segoe UI', sans-serif;
+           color: rgb(25, 3, 86);
+            padding-top: 310px;
+                 transition: all 0.5s ease-in-out 0.02s, transform 0.3s ease;
+            
+    }
+    #txt:hover
+    {
+        color: #ffffff;
+    }
+    #prncpl_div_col2{
+        height: 400px;
+        width:1000px;
+        float:left;  
+        border-left: 5px solid rgb(8, 8, 76);
+        transform: translate(50px,25px);
+         background: rgba(255, 255, 255, 0.25); 
+  backdrop-filter: blur(8px);            
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border-radius: 12px;                  
+  padding: 24px;
+  color: #1f0e5c;
+  transition: all 0.5s ease-in-out ;
+  
+        
+        
+
+    }
+    #prncpl_div_col2:hover{
+        background: rgba(13, 13, 208, 0.15);
+        color:#ffffff;
+
+    }
+    #txtdec{
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#1a103c;
+           
+    }
+    
+    
+    #parg{
+        font-size:30px;
+        font-family:'Segoe UI', sans-serif;
+      
+        text-align: justify;
+
+
+    }
+    #box{
+        height:300px;
+        width:900px;
+
+        background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(8px);            
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border-radius: 12px;                  
+  padding: 24px;
+  color: #ffffff;
+  
+    }
+#awrd{
+    text-shadow: 3px 3px 8px #bfb6b6 ;
+   /* display: inline-block;*/
+   /* padding: 8px 16px;*/
+    text-decoration: none;
+    color: #1e068a;
+    margin-bottom: 80px; 
+    border-radius: 4px;
+     background: #ffffff;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    box-shadow: 5px 3px 10px  #ab8ae7;
+}
+#awrd:hover{
+    background-color:rgb(22, 4, 75); 
+    color:#ffffff
+}
+#clk{
+    font-weight: 700;
+    font-size: 25px;
+   /* margin-bottom: 30;*/
+    font-family:'Poppins', 'Segoe UI', sans-serif ;
+}
+#senior{
+    Height:550px;
+    width:1400px;
+    transform: translate(40px,70px);
+    background:rgba(255, 255, 255, 0.25) ;
+    backdrop-filter: blur(8px); 
+    border: 2px 2px solid rgb(175, 175, 220);
+    border-radius: 15px;
+    clear:both;
+}
+.row1{
+    height:80px;
+    width:1390px;
+    clear:both;
+    transform: translate(5px);
+     background:linear-gradient(rgba(62, 96, 218, 0.45), rgba(71, 71, 194, 0.75)) ;
+     backdrop-filter: blur(8px); 
+     border: 2px 2px solid rgb(175, 175, 220);
+border-radius: 15px;
+display:flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#300202;
+           box-shadow: 5px 10px 10px rgb(161, 146, 233);
+           transition: all 0.5s ease-in-out;
+              text-shadow: 5px 5px 5px rgb(132, 122, 122);
+}
+.row1:hover{
+    color:white;
+     box-shadow: 5px 10px 10px rgb(100, 92, 208);
+    background: linear-gradient(rgba(62, 96, 218, 0.45), rgba(35, 35, 180, 0.75));
+}
+
+.tchr{
+    height:400px;
+    width:300px;
+    background-color: white;
+    transform: translate(70px ,20px);
+    float:left;
+   border: 2px 2px solid white;
+    border-radius: 15px;
+    background-image: url('Asia/tchr1.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    margin: 10px;
+
+}
+.tchr:hover{
+    background-image: url('Asia/tchr2.jpg');
+    background-color: #07011e;
+}
+.txtTchr{
+        text-align: center;
+         font-weight: bold;
+         font-size: 25px;
+          font-family: 'Segoe UI', sans-serif;
+           color: rgb(25, 3, 86);
+            padding-top: 300px;
+                 transition: all 0.5s ease-in-out 0.02s, transform 0.3s ease;
+            
+    }
+    .txtTchr:hover
+    {
+        color: #ffffff;
+    }
+#excellent{
+     height:450px;
+    width:1400px;
+    background-color:rgba(215, 212, 238, 0.25) ;
+    transform: translate(35px,120px);
+   border: 2px 2px solid white;
+    border-radius: 15px;
+}
+.exc1{
+    height:300px;
+    width:600px;
+    background-color: white;
+    transform: translate(70px ,30px);
+    float:left;
+   border: 2px 2px solid white;
+    border-radius: 15px;
+    background-image: url('Asia/Exc1.png');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.exc1:hover{
+    background-image: url('Asia/Exc3.jpg');
+    color:white;
+    background-color: #0a0320;
+}
+.txtt{
+    padding-left: 270px;
+     text-align: center;
+         font-weight: bold;
+         font-size: 25px;
+          font-family: 'Segoe UI', sans-serif;
+           color: rgb(25, 3, 86);
+            
+    }
+    .exc1:hover .txtt {
+    color: white;
+}
+.deta{
+    font-size:20px; background:rgba(220, 214, 214, 0.25) ;
+    backdrop-filter: blur(8px); 
+        font-family:'Segoe UI', sans-serif;
+      padding-left:300px;
+        text-align: left;
+}
+    
+#other{
+    Height:1500px;
+    width:1300px;
+    transform: translate(100px,160px);
+    font-size:20px; background:rgba(220, 214, 214, 0.25) ;
+    backdrop-filter: blur(8px); 
+    border:  2px solid rgb(175, 175, 220);
+    border-radius: 15px;
+    clear:both;
+}
+.boxtchr{
+     box-shadow: 5px 5px 10px rgb(172, 168, 168);
+        background-color: white;
+        height:400px;
+        width:250px;
+    border:2px solid rgb(131, 131, 213);
+    border-radius: 20px;
+        transform: translate(50px,10px); 
+        background-image: url(' Asia/other3.jpg');  
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        float:left;
+        margin:20px;
+        transition: all 0.5s ease-in-out;
+
+}
+.boxtchr:hover{
+    background-image: url('Asia/other2.jpg');
+    background-color: #1a103c;
+}
+.text_other{
+ text-align: center;
+         font-weight: 15px;
+         font-size: 22px;
+          font-family: 'Segoe UI', sans-serif;
+           color: rgb(25, 3, 86);
+            padding-top: 290px;
+                 transition: all 0.5s ease-in-out 0.02s, transform 0.3s ease;
+            
+    }
+    .text_other:hover
+    {
+        color: #ffffff;
+    }
+    .row2{
+    height:80px;
+    width:1300px;
+    clear:both;
+    transform: translate(0px);
+     background:linear-gradient(rgba(62, 96, 218, 0.45), rgba(71, 71, 194, 0.75)) ;
+     backdrop-filter: blur(8px); 
+     border: 2px 2px solid rgb(175, 175, 220);
+border-radius: 15px;
+display:flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+        text-shadow: 5px 5px 5px rgb(132, 122, 122);
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#300202;
+           box-shadow: 5px 10px 10px rgb(161, 146, 233);
+           transition: all 0.5s ease-in-out;
+}
+.row2:hover{
+    color:white;
+     box-shadow: 5px 10px 10px rgb(100, 92, 208);
+    background: linear-gradient(rgba(62, 96, 218, 0.45), rgba(35, 35, 180, 0.75));
+}
+img { 
+  max-width: 100% !important; 
+  height: auto !important; 
+}
+
+
+* { 
+  max-width: 100% !important; 
+  box-sizing: border-box !important; 
+}

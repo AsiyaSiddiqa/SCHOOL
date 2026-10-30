@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Button
+        </title>
+        <style>
+.main{
+    height: 500px;
+    width:500px;
+    border: 1px solid blue;
+    margin: auto;
+   margin-top: 70px;
+   position: relative;
+}
+.schl{
+    height:50px;
+    width:100%;
+    font-size: 30px;
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    left:0px;
+    bottom: -40px;
+    opacity: 0;
+    transition: 1s;
+}
+.main:hover .schl{
+    bottom: 0px;
+    opacity: 1;
+}
+        </style>
+    </head>
+    <body>
+          <div class="main">
+            <img srcset="Asia/Asiyaa.png" height="100%" width="100%"/>
+            <input type="button" name="" value="See My School" class="schl"/>
+
+          </div>
+    </body>
+</html>

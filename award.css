@@ -1,0 +1,308 @@
+.main{
+    background: linear-gradient(rgba(206, 66, 66, 0.45), rgba(176, 21, 78, 0.75));
+margin:0;
+padding:0;
+width:100%;
+min-height: 400vh;
+}
+#divawrd1{
+    height: 400px;
+    width: 1500px;
+    clear: both;
+}
+#div2{
+    height:400px;
+    width:500px;
+    float:left;
+    background: url('Asia/award.jpg');
+    background-size: cover;
+    transform: translate(40px,40px);
+    border: 2px solid rgb(218, 163, 163);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(210, 94, 94);
+}
+#div2_1{
+ height: 400px;
+ width:900px;
+ float:left;
+ transform: translate(60px,40px);
+ background:linear-gradient(rgba(217, 186, 186, 0.45), rgba(223, 162, 158, 0.75)); 
+ border:2px solid rgb(218, 163, 163) ;
+ border-radius: 15px;
+ box-shadow: 5px 5px 10px rgb(211, 79, 105);
+ 
+
+}
+#div2_1:hover{
+background:linear-gradient(rgba(222, 138, 138, 0.45), rgba(211, 42, 30, 0.75));
+transition: all 0.5s ease-in-out 0.02s;
+color:white
+
+}
+#heading{
+    font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#300202;
+}
+#detail{
+    font-size:25px;
+        font-family:'Segoe UI', sans-serif;
+      padding:20px 20px;
+        text-align: justify;
+        
+}
+#divawrd2{
+
+    height: 500px;
+    width: 1500px;
+    clear:both;
+
+}
+#awrd2div1{
+    height:500px;
+    width:500px;
+    float:left;
+    background: url('Asia/BestPrincipal.jpg');
+    background-size: cover;
+    transform: translate(40px,40px);
+    border: 2px solid rgb(218, 163, 163);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(210, 94, 94);
+    margin-top: 40px;
+
+}
+#awrd2div2{
+    height: 500px;
+ width:900px;
+ float:left;
+ transform: translate(60px,80px);
+ background:linear-gradient(rgba(217, 186, 186, 0.45), rgba(223, 162, 158, 0.75)); 
+ border:2px solid rgb(218, 163, 163) ;
+ border-radius: 15px;
+ box-shadow: 5px 5px 10px rgb(211, 79, 105);
+ 
+
+}
+#awrd2div2:hover{
+background:linear-gradient(rgba(222, 138, 138, 0.45), rgba(211, 42, 30, 0.75));
+transition: all 0.5s ease-in-out 0.02s;
+color:white
+
+}
+#heading2{
+    font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#300202;
+}
+#detail2{
+    font-size:25px;
+        font-family:'Segoe UI', sans-serif;
+      padding:20px 20px;
+        text-align: justify;
+
+}
+
+
+
+        
+
+#divawrd3{
+    height: 500px;
+    width: 1500px;
+    clear: both;
+
+}
+#awrd3div1{
+    height:500px;
+    width:500px;
+    float:left;
+    background: url('Asia/goodrzlt.jpg');
+    background-size: cover;
+    transform: translate(40px,40px);
+    border: 2px solid rgb(218, 163, 163);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(210, 94, 94);
+    margin-top: 40px;
+
+}
+#awrd3div2{
+    height: 500px;
+ width:900px;
+ float:left;
+ transform: translate(60px,80px);
+ background:linear-gradient(rgba(217, 186, 186, 0.45), rgba(223, 162, 158, 0.75)); 
+ border:2px solid rgb(218, 163, 163) ;
+ border-radius: 15px;
+ box-shadow: 5px 5px 10px rgb(211, 79, 105);
+ 
+
+}
+#awrd3div2:hover{
+background:linear-gradient(rgba(222, 138, 138, 0.45), rgba(211, 42, 30, 0.75));
+transition: all 0.5s ease-in-out 0.02s;
+color:white
+
+}
+#heading3{
+    font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#300202;
+}
+#detail3{
+    font-size:25px;
+        font-family:'Segoe UI', sans-serif;
+      padding:20px 20px;
+        text-align: justify;
+
+}
+
+
+#divawrd4{
+    height: 700px;
+    width: 1500px;
+    clear: both;
+              
+    
+}
+#awrd4div1{
+    height:700px;
+    width:500px;
+    float:left;
+    background: url('Asia/mtrrzlt.jpeg');
+    background-size: cover;
+    transform: translate(40px,40px);
+    border: 2px solid rgb(218, 163, 163);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(210, 94, 94);
+  margin-top: 40px;
+  
+
+}
+#awrd4div2{
+    
+   height: 700px;
+ width:900px;
+ float:left;
+ transform: translate(60px,80px);
+ background:linear-gradient(rgba(217, 186, 186, 0.45), rgba(223, 162, 158, 0.75)); 
+ border:2px solid rgb(218, 163, 163) ;
+ border-radius: 15px;
+ box-shadow: 5px 5px 10px rgb(211, 79, 105);
+ 
+
+}
+#awrd4div2:hover{
+background:linear-gradient(rgba(222, 138, 138, 0.45), rgba(211, 42, 30, 0.75));
+transition: all 0.5s ease-in-out 0.02s;
+color:white
+
+}
+#heading4{
+    font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#300202;
+}
+#detail4{
+    font-size:25px;
+        font-family:'Segoe UI', sans-serif;
+      padding:20px 20px;
+        text-align: justify;
+
+}
+
+
+#divawrd5{
+    height: 550px;
+    width: 1500px;
+    clear: both;
+              
+    
+}
+#awrd5div1{
+    height:550px;
+    width:500px;
+    float:left;
+    background: url('Asia/Letter.jpg');
+    background-size: cover;
+    transform: translate(40px,40px);
+    border: 2px solid rgb(218, 163, 163);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(210, 94, 94);
+  margin-top: 40px;
+  
+
+}
+#awrd5div2{
+    
+   height: 550px;
+ width:900px;
+ float:left;
+ transform: translate(60px,80px);
+ background:linear-gradient(rgba(217, 186, 186, 0.45), rgba(223, 162, 158, 0.75)); 
+ border:2px solid rgb(218, 163, 163) ;
+ border-radius: 15px;
+ box-shadow: 5px 5px 10px rgb(211, 79, 105);
+ 
+
+}
+#awrd5div2:hover{
+background:linear-gradient(rgba(222, 138, 138, 0.45), rgba(211, 42, 30, 0.75));
+transition: all 0.5s ease-in-out 0.02s;
+color:white
+
+}
+#heading5{
+    font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.5;
+         
+          font-family: 'Poppins', 'Segoe UI', sans-serif;
+          text-indent: 15px;
+           color:#300202;
+}
+#detail5{
+    font-size:25px;
+        font-family:'Segoe UI', sans-serif;
+      padding:20px 20px;
+        text-align: justify;
+
+}
+#foot{
+    text-align: center;
+    font-size: 25px;
+    background-color:rgb(76, 2, 2) ;
+    color:#ffff;
+    clear:both;
+    box-shadow: 5px 5px 10px wheat;
+    
+}
+#foot:hover{
+    background-color:rgb(210, 213, 58);
+    color: rgb(7, 7, 31);
+}
+img { 
+  max-width: 100% !important; 
+  height: auto !important; 
+}
+
+
+* { 
+  max-width: 100% !important; 
+  box-sizing: border-box !important; 
+}

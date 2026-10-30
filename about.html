@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script>
+    tailwind.config = {
+      theme: {
+         screens: {
+      'sm': '300px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+        extend: {
+           screens: {
+        'laptop': { 'min': '200px' ,'max':'300px'},
+        // => @media (min-width: 992px) { ... }
+      },
+          colors: {
+            asiya: '#00569d',
+          }
+        }
+      }
+    }
+  </script>
+    </head>
+    <body class="">
+        <header class="bg-slate-900 text-white flex justify-between items-center w-full min-h-[80px] shadow-md relative z-10">
+    <div class="flex items-center space-x-4 px-6 py-2">
+      <img src="Asia/clrbg.png" alt="GGHSS Logo" class="sm:w-[75px] w-[55px] sm:h-[75px] h-[55px] object-contain rounded-full bg-white/10 p-1 ring-2 ring-amber-400/30" />
+      <div>
+        <h1 class="sm:text-2xl text-base font-extrabold tracking-tight leading-tight text-white">
+          GOVT. GIRLS HIGHER SECONDARY SCHOOL
+        </h1>
+        <p class="sm:text-sm text-xs text-amber-400 font-semibold tracking-wide uppercase">
+          Mianwal Ranjha
+        </p>
+      </div>
+    </div>
+
+    <!-- Principal Tagline -->
+    <div class="hidden lg:flex items-center justify-end pr-10 pl-20 h-full py-6 bg-gradient-to-r from-amber-400 to-amber-500 text-slate-900 font-bold text-base shadow-inner [clip-path:polygon(12%_0,_100%_0,_100%_100%,_0%_100%)]">
+      <span class="flex items-center gap-2 font-bold tracking-tight text-lg">
+        <i class="fas fa-user-shield text-slate-900 text-xl"></i>
+        Principal Ms Farwa Nawaz <span class="text-xs bg-slate-900/10 px-2 py-0.5 rounded font-semibold text-slate-950">(SST IT)</span>
+      </span>
+    </div>
+  </header>
+        <div class=" text-center text-black mx-auto text-4xl mt-5 ">
+            <h1 class="text-4xl font-bold   pt-2 text-black text-center antialiased"> ────⋆⋅ABOUT US⋅⋆────</h1>
+
+        </div>
+        <div class="max-w-[1320px] mx-auto flex lg:flex-row md:flex-col sm:flex-col gap-5 py-5 px-5">
+        
+           <div class="basis-[45%] overflow-hidden"> 
+            <img src="Asia/bestest.jpg"  class=" hover:scale-110 duration-1000  w-full h-[520px]"/>
+           </div>
+           <div class="basis-[55%] ">
+            <div>
+       </div>
+            <h1 class="text-4xl font-bold  pt-1 text-blue-900">Welcome To GGHSS Mianwal Ranjha</h1> 
+        <p class="pt-3 text-xl text-justify text-black font-medium">
+            Welcome to GGHSS Mianwal Ranjha, where we provide quality education in a safe and inspiring environment. Our goal is to nurture creative thinkers, future leaders, and lifelong learners.
+        </p>
+        <p class="pt-5 text-xl font-medium"> 
+            With modern facilities, experienced faculty, and a well-rounded curriculum, we ensure every student achieves their full potential both academically and personally.
+            Join us at GGHSS Mianwal Ranjha and be part of a community that values excellence, integrity, and innovation in education.
+        </p>
+         
+        <p class="pt-5 text-xl font-medium">
+            <i class="fas fa-graduation-cap text-2xl mr-2 bg-blue-900 text-white p-2 rounded-full"></i>
+            
+15+ Years of Educational Excellence
+</p>
+<p class="pt-3 text-xl font-medium">
+    <i class="fas fa-chalkboard-user text-2xl mr-2 bg-green-900 text-white p-2 rounded-full"></i>
+ Qualified & Caring Teachers
+</p>
+<p class="pt-3 text-xl font-medium">
+    <i class="fas fa-school-flag text-2xl mr-2 bg-yellow-900 text-white p-2 rounded-full"></i>
+ Modern & Safe Campus Environment
+   </p> 
+   
+    <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300 bg-blue-900 text-white px-5 py-2 text-[17px]  rounded-lg mt-5  duration-1000">Learn More  ➜</button>    
+        </div>
+       
+        </div>
+        
+    </body>
+</html>

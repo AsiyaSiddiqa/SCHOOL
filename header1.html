@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GGHSS</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white min-h-screen ">
+     <!--Header Start..-->
+  <header class="bg-slate-900 text-white flex justify-between items-center w-full min-h-[80px] shadow-md relative z-10">
+    <!--1st Div-->
+    <div class="flex items-center space-x-4 px-6 py-2">
+      <!--School logo..-->
+      <img src="clrbg.png" alt="GGHSS Logo" class="sm:w-[85px] w-[55px] sm:h-[85px] h-[55px] object-contain rounded-full bg-white/1 p- ring-4 ring-amber-500/90" />
+     <!--2nd div..-->
+     <div>
+        <!--School Name-->
+        <h1 class="sm:text-2xl text-base font-extrabold tracking-tight leading-tight text-white">
+          GOVT. GIRLS HIGHER SECONDARY SCHOOL
+        </h1>
+        <p class="sm:text-sm text-xs text-amber-400 font-semibold tracking-wide uppercase">
+          Mianwal Ranjha
+        </p>
+      <!--2nd div close-->
+      </div>
+    <!--1st div closee-->
+    </div>
+
+   <!--Principal Wala section Polygon ka use kia image ko cut krny k liay..-->
+    <div class="hidden lg:flex items-center justify-end pr-10 pl-20 h-full py-6 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold  text-base shadow-inner [clip-path:polygon(12%_0,_100%_0,_100%_100%,_0%_100%)]">
+      <span class="flex items-center gap-2 font-bold tracking-tight text-lg">
+        <i class="fas fa-graduation-cap text-slate-900 text-xl"></i>
+        Principal Ms Farwa Nawaz <span class="text-xs bg-slate-900/10 px-2 py-0.5 rounded font-semibold text-black">(SST IT)</span>
+      </span>
+    </div>
+
+    <div class="flex md:hidden items-center pr-4">
+      <button id="menu-btn" class="text-white focus:outline-none p-2 rounded hover:bg-slate-800 transition-colors">
+
+      <i class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+  </header>
+<!--Header section Close..-->
+  <!--NavBar Start..Ar isy stick kia hua h..-->
+<nav class="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
+
+  <!-- Desktop Navbar -->
+  <div class="hidden md:flex flex-row flex-nowrap divide-x divide-blue-800/60 bg-blue-900">
+    
+    <!--Home tab-->
+    <a href="index.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-home text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Home</span>
+    </a>
+
+    <!--About Us tab-->
+    <a href="aboutus.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-users text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">About Us</span>
+    </a>
+
+    <!--Admissions wla tab-->
+    <a href="admission.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-file-signature text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Admissions</span>
+    </a>
+
+    <!--Our Staff-->
+    <a href="staff.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-chalkboard-teacher text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Our Staff</span>
+    </a>
+
+    <!--Results-->
+    <a href="results.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-trophy text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Results</span>
+    </a>
+    <!--Timetable-->
+    <a href="header1.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-table text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Timetable</span>
+    </a>
+
+    <!--Academics-->
+    <a href="academics.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-graduation-cap text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Academics</span>
+    </a>
+
+    <!--Notice Board-->
+    <a href="notice.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-bullhorn text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Notice Board</span>
+    </a>
+
+    <!--Contact Us-->
+    <a href="contact.html" class="flex flex-col flex-1 items-center justify-center py-3 px-2 bg-blue-900 text-white hover:text-amber-400 font-medium hover:bg-blue-950 transition-all duration-200 group hover:shadow-[inset_0_-2px_0_#fbbf24]">
+      <i class="fas fa-envelope text-lg mb-1 group-hover:-translate-y-0.5 transition-transform"></i>
+      <span class="text-xs sm:text-sm tracking-wide">Contact Us</span>
+    </a>
+
+  </div>
+
+  <div id="mobile-backdrop" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
+
+  <div id="mobile-sidebar" class="fixed inset-y-0 left-0 z-50 w-72 bg-blue-950 text-white transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden flex flex-col shadow-2xl overflow-y-auto">
+    <div class="flex items-center justify-between p-4 border-b border-blue-900">
+      <button id="close-btn" class="text-white hover:text-amber-400 p-2">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    
+    <div class="flex flex-col py-2 divide-y divide-blue-900/50">
+      
+      <!--Home tab-->
+      <a href="project.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-home text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Home</span>
+      </a>
+
+      <!--About Us tab-->
+      <a href="aboutus.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-users text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">About Us</span>
+      </a>
+
+      <!--Admissions wla tab-->
+      <a href="admission.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-file-signature text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Admissions</span>
+      </a>
+
+      <!--Our Staff-->
+      <a href="staff.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-chalkboard-teacher text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Our Staff</span>
+      </a>
+
+      <!--Results-->
+      <a href="results.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-trophy text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Results</span>
+      </a>
+
+      <!--Academics-->
+      <a href="academics.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-graduation-cap text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Academics</span>
+      </a>
+
+      <!--Notice Board-->
+      <a href="notice.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-bullhorn text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Notice Board</span>
+      </a>
+
+      <!--Contact Us-->
+      <a href="contact.html" class="flex items-center gap-4 py-3 px-5 text-white hover:text-amber-400 hover:bg-blue-900 transition-all">
+        <i class="fas fa-envelope text-lg w-6 text-center"></i>
+        <span class="text-sm tracking-wide">Contact Us</span>
+      </a>
+
+    </div>
+  </div>
+</nav>
+<div class="py-5">
+ <div class="text-center space-y-3" data-aos="fade-down" data-aos-duration="1000">
+            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest bg-blue-300 text-slate-950 shadow-lg shadow-amber-500/20">
+                <i class="fas fa-calendar-alt"></i> Teachers Timetable
+            </span>
+            <h1 class="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight">
+                Table <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-600 to-blue-600">Time</span>
+            </h1>
+            <p class="text-slate-600 text-base font-bold max-w-2xl mx-auto">
+School Timetable 2026 - Teacher Wise Schedule            </p>
+        </div>
+
+</div>
+        
+        
+<div class="max-w-4xl mx-auto px-4 py-8">
+
+        <div class="bg-blue-50 shadow-2xl shadow-blue-900/50 rounded-3xl border-[8px] border-blue-600 p-6 md:p-8">
+
+            <div class="bg-gray-50 p-6 rounded-2xl border border-blue-200 shadow-inner mb-8">
+
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">
+                            <i class="fas fa-graduation-cap mr-1 text-blue-500"></i>
+                            Teacher's Name:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="teacherName"
+                            placeholder="Ms. Farwa"
+                            class="w-full px-4 py-2.5 bg-white border border-blue-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
+                        >
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">
+                            <i class="fas fa-clock mr-1 text-blue-500"></i>
+                            Class & Period Details:
+                        </label>
+
+                        <textarea
+                            id="timetableDetails"
+                            rows="3"
+                            placeholder="9th Sci: Computer | 9:30 - 10:30 
+10th Sci: Computer | 10:30 - 11:30"
+                            
+                            class="w-full px-4 py-2.5 bg-white border border-blue-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
+                        ></textarea>
+                    </div>
+                    <button
+                        type="button"
+                        id="okBtn"
+                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold sm:py-2.5 py-2 px-4 rounded-xl shadow-md transition flex items-center justify-center gap-2"
+                    >
+                        <i class="fas fa-plus-circle"></i>
+                        OK (Add to List) ?
+                    </button>
+
+                </div>
+            </div>
+            <div class="mb-8">
+
+                <h3 class="text-lg font-bold text-gray-800 mb-3 flex items-center  gap-2">
+                    <i class="fas fa-list text-blue-700"></i>
+                    Added Entries:
+                </h3>
+
+                <div
+                    id="tempList"
+                    class="grid grid-cols-1 md:grid-cols-2 gap-4 border border-blue-300 rounded-xl"
+                ></div>
+                <div id="confirmContainer" class="mt-6 hidden">
+
+                    <button
+                        type="button"
+                        id="confirmBtn"
+                        class="w-full bg-blue-600 hover:bg-blue-700 text-white sm:font-extrabold font-bold py-3.5 sm:px-6 px-4 rounded-2xl shadow-lg transition flex items-center justify-center gap-2 sm:text-lg text-sm"
+                    >
+                        <i class="fas fa-check-double"></i>
+                        Confrm Time Table
+                    </button>
+
+                </div>
+
+            </div>
+            <div class="border-t border-blue-200 pt-6">
+
+                <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center justify-between">
+
+                    <span>
+                        <i class="fas fa-calendar-check text-blue-600"></i>
+                        Final Time Table:
+                    </span>
+
+                    <button
+                        type="button"
+                        id="resetBtn"
+                        class="text-xs text-red-500 hover:underline"
+                    >
+                        <i class="fas fa-trash"></i>
+                        Reset All
+                    </button>
+
+                </h3>
+
+
+                <div
+                    id="finalList"
+                    class="grid grid-cols-1 md:grid-cols-2 gap-4"
+                ></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    
+</div>
+
+
+    <script>
+        let tempEntries = [];
+        const teacherInput = document.getElementById("teacherName");
+        const detailsInput = document.getElementById("timetableDetails");
+
+        const okBtn = document.getElementById("okBtn");
+
+        const tempList = document.getElementById("tempList");
+
+        const confirmContainer =
+            document.getElementById("confirmContainer");
+
+        const confirmBtn =
+            document.getElementById("confirmBtn");
+
+        const finalList =
+            document.getElementById("finalList");
+
+        const resetBtn =
+            document.getElementById("resetBtn");
+
+
+        // Page load
+        window.addEventListener("DOMContentLoaded", function () {
+            renderTemp();
+            displayFinal();
+        });
+        okBtn.addEventListener("click", function () {
+
+            const name = teacherInput.value.trim();
+            const details = detailsInput.value.trim();
+
+
+            if (!name || !details) {
+
+                alert(
+                    "Please Enter Teacher's Name and Class/Period Details before adding to the list..."
+                );
+
+                return;
+            }
+            tempEntries.push({
+                name: name,
+                details: details
+            });
+            teacherInput.value = "";
+            detailsInput.value = "";
+            renderTemp();
+
+            teacherInput.focus();
+        });
+        function renderTemp() {
+
+            tempList.innerHTML = "";
+
+
+            if (tempEntries.length === 0) {
+
+                tempList.innerHTML = `
+                    <div class="col-span-2 text-center py-6 text-gray-400 bg-gray-50 rounded-xl border border-dashed border-gray-300 text-sm">
+                        Still no entries added...
+                    </div>
+                `;
+
+                confirmContainer.classList.add("hidden");
+
+                return;
+            }
+            confirmContainer.classList.remove("hidden");
+
+
+            tempEntries.forEach(function (item, index) {
+
+                const card = document.createElement("div");
+
+                card.className =
+                    "bg-blue-50 border border-blue-200 p-4 rounded-xl relative shadow-sm space-y-3";
+
+
+                card.innerHTML = `
+
+                    <button
+                        type="button"
+                        onclick="removeTempEntry(${index})"
+                        class="absolute top-3 right-3 text-red-400 hover:text-red-600 text-xs p-1"
+                        title="Delete"
+                    >
+                        <i class="fas fa-times-circle text-base"></i>
+                    </button>
+
+
+                    <div>
+
+                        <span class="text-xs font-bold text-blue-700 uppercase tracking-wider block mb-1">
+                            <i class="fas fa-graduation-cap mr-1"></i>
+                            Teacher
+                        </span>
+
+                        <div class="font-bold text-gray-900 bg-white px-3 py-2 rounded-lg border border-blue-100">
+                            ${escapeHtml(item.name)}
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="text-xs font-bold text-blue-700 uppercase tracking-wider block mb-1">
+                            <i class="fas fa-clock mr-1"></i>
+                            Period / Details
+                        </span>
+
+                        <div class="text-gray-700 text-sm whitespace-pre-line bg-white p-3 rounded-lg border border-blue-100">
+                            ${escapeHtml(item.details)}
+                        </div>
+
+                    </div>
+
+                `;
+
+
+                tempList.appendChild(card);
+
+            });
+
+        }
+        window.removeTempEntry = function (index) {
+
+            tempEntries.splice(index, 1);
+
+            renderTemp();
+        };
+
+        confirmBtn.addEventListener("click", function () {
+
+            if (tempEntries.length === 0) {
+                return;
+            }
+
+            let userPassword = prompt("Enter the Password:");
+            if (userPassword === null) return;
+
+            if (userPassword !== "MdmFarwa12@") {
+                alert("Wrong Password.. Please enter correct password to publish the timetable:");
+                return;
+            }
+
+            let saved =
+                JSON.parse(
+                    localStorage.getItem("mySchoolTimetable")
+                ) || [];
+            saved.push(...tempEntries);
+            localStorage.setItem(
+                "mySchoolTimetable",
+                JSON.stringify(saved)
+            );
+            tempEntries = [];
+
+
+            renderTemp();
+
+            displayFinal();
+
+
+            alert("Successfully Published..");
+        });
+        function displayFinal() {
+
+            let saved =
+                JSON.parse(
+                    localStorage.getItem("mySchoolTimetable")
+                ) || [];
+
+
+            finalList.innerHTML = "";
+
+
+            if (saved.length === 0) {
+
+                finalList.innerHTML = `
+                    <div class="col-span-2 text-center py-6 text-gray-400 bg-gray-50 rounded-xl border border-dashed border-gray-300 text-sm">
+                        Still no published timetable available...
+                    </div>
+                `;
+
+                return;
+            }
+
+
+            saved.forEach(function (item, index) {
+
+                const card = document.createElement("div");
+
+                card.className =
+                    "bg-gradient-to-br from-blue-100 to-blue-200 border border-blue-200 p-5 rounded-2xl shadow-sm relative space-y-3";
+
+
+                card.innerHTML = `
+
+                    <button
+                        type="button"
+                        onclick="deleteFinalEntry(${index})"
+                        class="absolute top-4 right-4 text-red-400 hover:text-red-600 bg-white p-2 rounded-full shadow-sm text-xs"
+                        title="Delete"
+                    >
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+
+
+                    <div>
+
+                        <span class="text-xs font-bold text-blue-700 uppercase tracking-wider block mb-1">
+                            <i class="fas fa-graduation-cap mr-1"></i>
+                            Teacher
+                        </span>
+
+                        <div class="text-lg font-bold text-blue-900 bg-white px-3 py-2 rounded-xl border border-blue-100 pr-10">
+                            ${escapeHtml(item.name)}
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="text-xs font-bold text-blue-700 uppercase tracking-wider block mb-1">
+                            <i class="fas fa-clock mr-1"></i>
+                            Period / Details
+                        </span>
+
+                        <div class="text-gray-700 text-sm whitespace-pre-line bg-white p-3 rounded-xl border border-blue-100">
+                            ${escapeHtml(item.details)}
+                        </div>
+
+                    </div>
+
+
+                    <div class="text-xs text-emerald-600 font-semibold flex items-center gap-1">
+                        <i class="fas fa-check-circle"></i>
+                        Published
+                    </div>
+
+                `;
+
+
+                finalList.appendChild(card);
+
+            });
+
+        }
+
+        window.deleteFinalEntry = function (index) {
+
+            let userPassword = prompt("Enter the Password:");
+            if (userPassword === null) return;
+
+            if (userPassword !== "MdmFarwa12@") {
+                alert("Wrong Password.. Please enter correct password to delete the entry:");
+                return;
+            }
+
+            let saved =
+                JSON.parse(
+                    localStorage.getItem("mySchoolTimetable")
+                ) || [];
+
+
+            saved.splice(index, 1);
+
+
+            localStorage.setItem(
+                "mySchoolTimetable",
+                JSON.stringify(saved)
+            );
+
+
+            displayFinal();
+        };
+        resetBtn.addEventListener("click", function () {
+
+            let userPassword = prompt("Enter Password to reset:");
+            if (userPassword === null) return;
+
+            if (userPassword !== "MdmFarwa12@") {
+                alert("Wrong Password.. Please enter correct password to reset the timetable:");
+                return;
+            }
+
+
+            localStorage.removeItem("mySchoolTimetable");
+
+            displayFinal();
+        });
+        function escapeHtml(text) {
+
+            const div = document.createElement("div");
+
+            div.textContent = text;
+
+            return div.innerHTML;
+        }
+        teacherInput.addEventListener("keydown", function (event) {
+
+            if (event.key === "Enter") {
+
+                event.preventDefault();
+
+                detailsInput.focus();
+            }
+
+        });
+
+
+        detailsInput.addEventListener("keydown", function (event) {
+
+            if (event.key === "Enter" && event.ctrlKey) {
+
+                event.preventDefault();
+
+                okBtn.click();
+            }
+
+        });
+
+    </script>
+     <!--Footer-->
+ <footer id="foot" class="w-full">
+  <div class="footmaindiv">
+    
+    <div class="bg-blue-950 text-white flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 sm:py-8 py-4 gap-8 lg:gap-4">
+      
+      <!--School logo left side-->
+      <div class="w-full lg:w-[300px] flex items-center justify-center">
+        <img src="clrbg.png" class="h-[80px] sm:h-[200px] object-contain" alt="Logo" />
+      </div>
+
+      <!--School information ..Middle -->
+      <div class="w-full lg:w-[320px] flex flex-col justify-center text-center lg:text-left px-2">
+        <h1 class="text-xl sm:text-3xl font-bold text-amber-500 mb-2">School Information</h1>
+        <p class="text-[12px] sm:text-sm leading-relaxed mb-4 text-slate-200">
+          Situated in the heart of Mianwal Ranjha, Govt. Girls Higher Secondary School is dedicated to providing quality education and building a bright future for young women in a supportive and modern environment.
+        </p>
+        <div class="flex items-center justify-center lg:justify-start text-[12px] text-left sm:text-sm gap-2">
+          <img src="location.png" class="h-[25px] w-[25px] sm:h-[30px] sm:w-[30px] inline-block shrink-0" alt="Location" />
+          <span>Mianwal Ranjha, Tehsil Phalia, District Mandi Bahauddin, Punjab, Pakistan.</span>
+        </div>
+      </div>
+
+      <!--Map .. Right side-->
+      <div class="w-full lg:w-[500px] xl:w-[550px] flex justify-center">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3369.2276346762246!2d73.44013768311498!3d32.3862591532942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgovt%20girls%20higher%20secondary%20school%20mianwal%20ranjha!5e0!3m2!1sen!2s!4v1786869686311!5m2!1sen!2s" 
+          class="border-0 h-[250px] sm:h-[280px] w-full rounded-lg shadow-md" 
+          allowedfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+      </div>
+
+    </div>
+
+    <!--Footer bottom-->
+    <div class="bg-slate-900 text-white sm:py-4 py-2 px-4 text-center flex flex-col justify-center gap-1">
+      <p class="m-0 text-[10px] sm:text-sm">
+        Copyright &copy; 2026, GGHSS Mianwal Ranjha. All rights Reserved.
+      </p>
+      <p class="text-[10px] sm:text-sm text-slate-300">
+        Website designed & developed by <span class="font-bold text-amber-400 text-[12px] sm:text-[16px]">Asiya Siddiqa</span>. BSSE(3rd Semester) | Virtual University Of Pakistan
+      </p>
+    </div>
+
+  </div>
+</footer>
+<!--End footer-->
+
+</body>
+</html>

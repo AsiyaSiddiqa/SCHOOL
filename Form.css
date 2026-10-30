@@ -1,0 +1,203 @@
+ 
+ #maindiv{
+
+
+ background: linear-gradient(rgba(218, 144, 144, 0.45), rgba(208, 24, 33, 0.75));
+margin:0;
+padding:0;
+width:100%;
+min-height: 150vh;
+display: flex;
+    justify-content: center; 
+    align-items: center;
+ }
+ #formdiv{
+    height:800px;
+    width:900px;
+    border:2px solid rgb(201, 185, 185);
+    border-radius: 20px;
+    background:rgba(243, 240, 240, 0.5) ;
+    backdrop-filter: blur(8px);
+    padding: 50px;
+    transition: all 0.6s ease-in-out;
+    
+ }
+ #formdiv:hover{
+    background:  linear-gradient(rgba(216, 131, 131, 0.45), rgba(228, 7, 7, 0.75));
+color:white;
+ }
+ #headr{
+    height: 120px;
+    width:100%;
+    background-color : rgb(151, 19, 19); 
+    color:white;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Segoe UI', sans-serif;
+   border: 1px solid brown;
+   border-radius: 15px;
+   box-shadow: 5px 5px 10px rgb(195, 38, 38);
+   text-shadow: 5px 5px 10px black;
+   
+    
+
+ }
+ #image{
+    position: absolute;
+    height:120px ;
+    width:160px;
+    transform: translate(-570px,0px);
+ }
+ #formdiv2{
+   height:800px;
+    width:400px;
+    border:2px solid rgb(201, 185, 185);
+    border-radius: 20px;
+    background:  linear-gradient(rgba(216, 131, 131, 0.45), rgba(228, 7, 7, 0.75));
+    backdrop-filter: blur(8px);
+    padding: 50px; 
+    margin:10px;
+    color:white; 
+    transition: all 0.5s ease-in-out;
+
+ }
+ #image2{
+    
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 300px;
+    height: 200px;
+  
+    
+
+ }
+ #subheading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    font-family:'Segoe UI', sans-serif ;
+    color:black;
+ }
+ /*input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    margin-left: 8px;
+}
+input[type="date"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    margin-left: 8px;
+    
+}
+.Father{
+    margin-top: 50px;
+}
+    */
+.form-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px 25px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    padding:10px;
+}
+.input-group label{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.input-group input{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.input-group select{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+#input-box{
+    
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+#input-box label{
+    font-size: 25px;
+    font-weight: 700;
+    color: #333;
+}
+#input-box textarea{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    box-sizing: border-box;
+
+}
+.input-submit{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    padding:55px;
+   
+
+}
+.button-container {
+    grid-column: 1 / -1; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 55px;
+}
+.submit-btn {
+    background-color: #521313; 
+    color: white;
+    padding: 22px 65px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+    transition: all 0.5s ease-in-out, transform 0.1s ease;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: #521313;
+    box-shadow: 0px 0px 20px #521313;
+    transform: translateY(-2px); 
+}
+.required {
+    color: red;
+    margin-left: 3px;
+}
+#formdiv:hover .required{
+    color:white;
+}
+
+
